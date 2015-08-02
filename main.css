@@ -1,30 +1,33 @@
 header , .col-sm-8 {
-    text-align: center;
-    
+  text-align: center;
 }
+
 #face {
   padding: 20px 0;
   text-align: center;
 }
+
 #face img {
   max-width: 300px;
   border: 5px solid #fff;
   border-radius: 100%;
 }
 
-.table{
-    	text-align:center;
+.table {
+  text-align:center;
 }
+
 table {
 	border-collapse: collapse;
-
 }
+
 td {
 	border: solid 0px;
 	padding: 0.5em;
 	text-align:center;
 }
+
 th {
-    text-align:center;
-    font-size:18px;
+  text-align:center;
+  font-size:18px;
 }
