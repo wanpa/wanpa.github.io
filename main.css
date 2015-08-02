@@ -2,6 +2,16 @@ header , .col-sm-8 {
     text-align: center;
     
 }
+#face {
+  padding: 20px 0;
+  text-align: center;
+}
+#face img {
+  max-width: 300px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
 .table{
     	text-align:center;
 }
