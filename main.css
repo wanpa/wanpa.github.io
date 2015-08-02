@@ -2,6 +2,10 @@ header , .col-sm-8 {
   text-align: center;
 }
 
+.container-fluid{
+  width:960px;
+}
+
 #face {
   padding: 20px 0;
   text-align: center;
@@ -30,4 +34,18 @@ td {
 th {
   text-align:center;
   font-size:18px;
+}
+
+
+footer,header {
+  text-align: center;
+  color: white;
+  background: rgb(30,87,153);
+  background: -moz-linear-gradient(left,  rgb(30,87,153) 0%, rgb(125,185,232) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(30,87,153)), color-stop(100%,rgb(125,185,232)));
+  background: -webkit-linear-gradient(left,  rgb(30,87,153) 0%,rgb(125,185,232) 100%);
+  background: -o-linear-gradient(left,  rgb(30,87,153) 0%,rgb(125,185,232) 100%);
+  background: -ms-linear-gradient(left,  rgb(30,87,153) 0%,rgb(125,185,232) 100%);
+  background: linear-gradient(to right,  rgb(30,87,153) 0%,rgb(125,185,232) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
